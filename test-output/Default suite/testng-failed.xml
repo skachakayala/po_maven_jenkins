@@ -3,15 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="businessScripts.CrmLogin">
+      <class name="businessScripts.DataProviderEx">
         <methods>
-          <include name="openBrowser"/>
           <include name="login"/>
-          <include name="logoutClick"/>
-          <include name="logoutVerification"/>
-          <include name="closeBrowser"/>
         </methods>
-      </class> <!-- businessScripts.CrmLogin -->
+      </class> <!-- businessScripts.DataProviderEx -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
