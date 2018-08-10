@@ -10,7 +10,7 @@ public class ObjectUtilities {
 
 	private static String configFilepath = System.getProperty("user.dir")+"\\Utilities\\LoginConfigs.properties";
 	
-	private static String exelFilePath = System.getProperty("user.dir")+"\\TestData\\LoginData1.xlsx";
+	private static String exelFilePath = System.getProperty("user.dir")+"\\TestData\\LoginData2.xlsx";
 	
 	private static PropertiesReusable propertiesReusables;
 	

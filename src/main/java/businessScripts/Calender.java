@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 import baseEngine.DriverEngine;
 import pomScripts.Calender_pom;
 
-public class Calender {
+public class Calender extends DriverEngine{
 	Calender_pom calender;
 	WebDriver driver;
 	@Test
